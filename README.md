@@ -40,7 +40,6 @@ if [ $? -eq 0 ]; then
 else
 	echo "$DATE Backup error" >> "$LOG"
 fi
-
 ```
 
 Скриншот 1 к решению 2 (проверка скрипта)
