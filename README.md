@@ -24,8 +24,24 @@
 
  ### Решение 2
 
-Скрипт создания бэкапа:
-[rsync_backup.sh](https://github.com/jack34ru/reserv_kopirov/blob/master/files/rsync_backup.sh)
+Листинг кода скрипта создания бэкапа:
+```
+#!/bin/bash
+
+DATE=$(date '+%Y-%m-%d %H:%M:%S')
+LOG="/home/$USER/backup_home.log"
+SRC="/home/$USER/"
+DEST="/tmp/backup/"
+
+rsync -a --delete "$SRC" "$DEST" > /dev/null 2>&1
+
+if [ $? -eq 0 ]; then
+	echo "$DATE Backup succesfull" >> "$LOG"
+else
+	echo "$DATE Backup error" >> "$LOG"
+fi
+
+```
 
 Скриншот 1 к решению 2 (проверка скрипта)
 ![Screen 1](https://github.com/jack34ru/reserv_kopirov/blob/master/screens/Screenshot_134.png)
