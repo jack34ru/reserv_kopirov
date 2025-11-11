@@ -28,7 +28,7 @@
 [rsync_backup.sh](https://github.com/jack34ru/reserv_kopirov/blob/master/files/rsync_backup.sh)
 
 Скриншот 1 к решению 2 (проверка скрипта)
-![Screen 1](https://github.com/jack34ru/reserv_kopirov/blob/master/screens/Screenshot_130.png)
+![Screen 1](https://github.com/jack34ru/reserv_kopirov/blob/master/screens/Screenshot_134.png)
 
 Скриншот 2 к решению 2 (запись в cron)
-![Screen 1](https://github.com/jack34ru/reserv_kopirov/blob/master/screens/Screenshot_131.png)
+![Screen 1](https://github.com/jack34ru/reserv_kopirov/blob/master/screens/Screenshot_135.png)
