@@ -12,7 +12,6 @@
 ![Screen 1](https://github.com/jack34ru/reserv_kopirov/blob/master/screens/Screenshot_132.png)
 
 Скриншот 2 к решению 1  
-
 ![Screen 1](https://github.com/jack34ru/reserv_kopirov/blob/master/screens/Screenshot_133.png)
 
 
